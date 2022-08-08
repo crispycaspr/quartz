@@ -1,5 +1,5 @@
 ---
-title: 🪴 Quartz 3.2
+title: 🪴 Casper's digital garden
 ---
 
 Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
@@ -23,4 +23,3 @@ If you prefer browsing the contents of this site through a list instead of a gra
 - 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
 - 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
 - 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
-

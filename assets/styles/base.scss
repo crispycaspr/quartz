@@ -1,8 +1,11 @@
 // Replace this with your own font imports!
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Rufina:wght@700&display=swap');
+
+
 :root {
-  --font-body: "Source Sans Pro";
-  --font-header: "Inter";
+  --font-body: "PT Serif";
+  --font-header: "Rufina";
   --font-mono: "Fira Code"
 }
 
@@ -180,7 +183,7 @@ article {
     margin-top: 2em;
     font-size: 2em;
   }
-  
+
   & > .meta {
     margin: 0 0 1em 0;
     opacity: 0.7;
@@ -198,11 +201,11 @@ article {
 
       &.broken {
         opacity: 0.5;
-        background-color: transparent; 
+        background-color: transparent;
       }
     }
   }
-  
+
   & p {
     overflow-wrap: anywhere;
   }
@@ -292,7 +295,7 @@ footer {
   text-align: center;
   & ul {
     padding-left: 0;
-  } 
+  }
 }
 
 hr {
@@ -506,7 +509,7 @@ header {
 
   & > .section {
     display: flex;
-    align-items: center; 
+    align-items: center;
 
     @media all and (max-width: 600px) {
       & .tags {
@@ -518,11 +521,11 @@ header {
       font-weight: 700;
       margin: 0;
     }
-    
+
     & p {
       margin: 0;
       padding-right: 1em;
-      flex-basis: 6em; 
+      flex-basis: 6em;
     }
   }
 
@@ -611,4 +614,3 @@ header {
     padding: 0 1em;
   }
 }
-
